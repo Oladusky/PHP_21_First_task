@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.main_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 15px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: rgb(115, 110, 110);
+}
+
+.menu  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+ 
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+.knowledge {
+    display: block;   
+    justify-content: center;
+}
+
+.article {
+    background-color: grey;
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+    padding-left: 20px;
+    
+}
+
+.text {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.footer {
+    background-color: darkgray;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin: 0 auto;
+}
